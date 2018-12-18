@@ -1,0 +1,23 @@
+type file
+version 1.0.0
+
+id Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Middleware.AddCorrelationId
+title Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Middleware.AddCorrelationId
+
+authors Basisregisters Vlaanderen
+owners agentschap Informatie Vlaanderen <https://vlaanderen.be/informatie-vlaanderen>
+copyright Copyright (c) agentschap Informatie Vlaanderen
+requireLicenseAcceptance false
+projectUrl https://github.com/Informatievlaanderen/correlation-middleware
+iconUrl https://raw.githubusercontent.com/Informatievlaanderen/build-pipeline/master/logo.png
+licenseUrl https://opensource.org/licenses/MIT
+
+description Middleware component which adds a correlation id as a claim for the user on the request context.
+
+dependencies
+  framework: netstandard20
+    Microsoft.AspNetCore.Http.Abstractions >= LOCKEDVERSION
+
+files
+  bin\Release\netstandard2.0\Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Middleware.AddCorrelationId.dll => lib\netstandard2.0
+  bin\Release\netstandard2.0\Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Middleware.AddCorrelationId.pdb => lib\netstandard2.0
