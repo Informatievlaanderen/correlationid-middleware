@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/informatievlaanderen/correlationid-middleware/compare/v2.1.0...v2.2.0) (2020-01-31)
+
+
+### Features
+
+* upgrade netcoreapp31 and dependencies ([7095bf4](https://github.com/informatievlaanderen/correlationid-middleware/commit/7095bf468baf2c4418187fa31ffcf6ba95960c6e))
+
 # [2.1.0](https://github.com/informatievlaanderen/correlationid-middleware/compare/v2.0.0...v2.1.0) (2019-12-15)
 
 
