@@ -1,3 +1,10 @@
+## [2.2.1](https://github.com/informatievlaanderen/correlationid-middleware/compare/v2.2.0...v2.2.1) (2020-03-02)
+
+
+### Bug Fixes
+
+* bump netcore to 3.1.2 ([2c8f47a](https://github.com/informatievlaanderen/correlationid-middleware/commit/2c8f47a4296d2985cea31d0fe4a867978cdc42bf))
+
 # [2.2.0](https://github.com/informatievlaanderen/correlationid-middleware/compare/v2.1.0...v2.2.0) (2020-01-31)
 
 
