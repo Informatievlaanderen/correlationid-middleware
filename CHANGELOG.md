@@ -1,3 +1,10 @@
+## [2.2.2](https://github.com/informatievlaanderen/correlationid-middleware/compare/v2.2.1...v2.2.2) (2020-05-05)
+
+
+### Bug Fixes
+
+* move to GH-actions ([bdc1355](https://github.com/informatievlaanderen/correlationid-middleware/commit/bdc1355e51539cb84f6084a6a98b7adf5ec5882e))
+
 ## [2.2.1](https://github.com/informatievlaanderen/correlationid-middleware/compare/v2.2.0...v2.2.1) (2020-03-02)
 
 
