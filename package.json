@@ -1,6 +1,6 @@
 {
   "name": "correlationid-middleware",
-  "version": "2.2.4",
+  "version": "2.3.0",
   "description": "Middleware component which adds a correlation id as a claim for the user on the request context.",
   "author": "Basisregisters Vlaanderen",
   "license": "MIT",

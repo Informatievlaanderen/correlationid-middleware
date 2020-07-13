@@ -1,3 +1,10 @@
+# [2.3.0](https://github.com/informatievlaanderen/correlationid-middleware/compare/v2.2.4...v2.3.0) (2020-07-13)
+
+
+### Features
+
+* allow using custom claim name ([40d61e0](https://github.com/informatievlaanderen/correlationid-middleware/commit/40d61e009dc819d5320bd60d540b324500173371))
+
 ## [2.2.4](https://github.com/informatievlaanderen/correlationid-middleware/compare/v2.2.3...v2.2.4) (2020-06-18)
 
 
