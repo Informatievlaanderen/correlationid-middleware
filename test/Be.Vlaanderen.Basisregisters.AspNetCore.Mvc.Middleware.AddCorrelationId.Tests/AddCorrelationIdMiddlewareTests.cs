@@ -9,7 +9,7 @@ namespace Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Middleware.AddCorrelationI
     public class AddCorrelationIdMiddlewareTests
     {
         [Fact]
-        public async Task AddsExpectedCorrelationIdToUserClaims()
+        public async Task AddsExpectedCorrelationIdToDefaultUserClaims()
         {
             // Arrange
             var middleware = new AddCorrelationIdMiddleware((innerHttpContext) => Task.CompletedTask);
@@ -24,6 +24,25 @@ namespace Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Middleware.AddCorrelationI
             // Assert
             context.User.Should().NotBeNull();
             context.User.HasClaim(AddCorrelationIdMiddleware.UrnBasisregistersVlaanderenCorrelationId, traceIdentifier).Should().BeTrue();
+        }
+
+        [Fact]
+        public async Task AddsExpectedCorrelationIdToUserClaims()
+        {
+            // Arrange
+            var claimName = "urn:dummy";
+            var middleware = new AddCorrelationIdMiddleware((innerHttpContext) => Task.CompletedTask, claimName);
+            var context = new DefaultHttpContext();
+            var traceIdentifier = Guid.NewGuid().ToString("D");
+
+            context.Request.HttpContext.TraceIdentifier = traceIdentifier;
+
+            // Act
+            await middleware.Invoke(context);
+
+            // Assert
+            context.User.Should().NotBeNull();
+            context.User.HasClaim(claimName, traceIdentifier).Should().BeTrue();
         }
     }
 }

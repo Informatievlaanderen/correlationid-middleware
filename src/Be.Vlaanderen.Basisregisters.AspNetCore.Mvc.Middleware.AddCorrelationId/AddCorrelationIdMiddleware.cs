@@ -12,15 +12,22 @@ namespace Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Middleware
         public const string UrnBasisregistersVlaanderenCorrelationId = "urn:basisregisters:vlaanderen:correlation";
 
         private readonly RequestDelegate _next;
+        private readonly string _claimName;
 
-        public AddCorrelationIdMiddleware(RequestDelegate next) => _next = next;
+        public AddCorrelationIdMiddleware(
+            RequestDelegate next,
+            string claimName = UrnBasisregistersVlaanderenCorrelationId)
+        {
+            _next = next;
+            _claimName = claimName;
+        }
 
         public Task Invoke(HttpContext context)
         {
             var correlationId = context.Request.HttpContext.TraceIdentifier;
 
-            if (context.User.Identity is ClaimsIdentity user && !user.HasClaim(x => x.Type == UrnBasisregistersVlaanderenCorrelationId))
-                user.AddClaim(new Claim(UrnBasisregistersVlaanderenCorrelationId, correlationId, ClaimValueTypes.String));
+            if (context.User.Identity is ClaimsIdentity user && !user.HasClaim(x => x.Type == _claimName))
+                user.AddClaim(new Claim(_claimName, correlationId, ClaimValueTypes.String));
 
             return _next(context);
         }
