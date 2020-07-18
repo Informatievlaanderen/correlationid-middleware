@@ -1,3 +1,10 @@
+## [2.3.1](https://github.com/informatievlaanderen/correlationid-middleware/compare/v2.3.0...v2.3.1) (2020-07-18)
+
+
+### Bug Fixes
+
+* move to 3.1.6 ([9ec7bd9](https://github.com/informatievlaanderen/correlationid-middleware/commit/9ec7bd90d8ee94ac0a94b66180fd75903d378b53))
+
 # [2.3.0](https://github.com/informatievlaanderen/correlationid-middleware/compare/v2.2.4...v2.3.0) (2020-07-13)
 
 
