@@ -1,3 +1,10 @@
+## [2.3.3](https://github.com/informatievlaanderen/correlationid-middleware/compare/v2.3.2...v2.3.3) (2020-11-18)
+
+
+### Bug Fixes
+
+* remove set-env usage in gh-actions ([05a1fb5](https://github.com/informatievlaanderen/correlationid-middleware/commit/05a1fb54b76c5d0730372cd81a1b3251fa5055c2))
+
 ## [2.3.2](https://github.com/informatievlaanderen/correlationid-middleware/compare/v2.3.1...v2.3.2) (2020-09-21)
 
 
