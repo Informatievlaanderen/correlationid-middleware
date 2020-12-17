@@ -15,8 +15,8 @@ licenseUrl https://opensource.org/licenses/MIT
 description Middleware component which adds a correlation id as a claim for the user on the request context.
 
 dependencies
-  framework: netcoreapp31
+  framework: net5.0
 
 files
-  bin\Release\netcoreapp3.1\Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Middleware.AddCorrelationId.dll => lib\netcoreapp3.1
-  bin\Release\netcoreapp3.1\Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Middleware.AddCorrelationId.pdb => lib\netcoreapp3.1
+  bin\Release\net5.0\linux-x64\Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Middleware.AddCorrelationId.dll => lib\net5.0
+  bin\Release\net5.0\linux-x64\Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Middleware.AddCorrelationId.pdb => lib\net5.0
