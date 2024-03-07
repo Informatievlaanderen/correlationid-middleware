@@ -1,4 +1,4 @@
-# Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Middleware.AddCorrelationId [![Build Status](https://github.com/Informatievlaanderen/correlationid-middleware/workflows/CI/badge.svg)](https://github.com/Informatievlaanderen/correlationid-middleware/actions)
+# Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Middleware.AddCorrelationId [![Build Status](https://github.com/Informatievlaanderen/correlationid-middleware/workflows/Build/badge.svg)](https://github.com/Informatievlaanderen/correlationid-middleware/actions)
 
 ## Goal
 
