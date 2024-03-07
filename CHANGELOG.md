@@ -1,3 +1,15 @@
+# [4.0.0](https://github.com/informatievlaanderen/correlationid-middleware/compare/v3.0.0...v4.0.0) (2024-03-07)
+
+
+### Features
+
+* move to dotnet 8.0.2 ([c0e03e3](https://github.com/informatievlaanderen/correlationid-middleware/commit/c0e03e339c95ad7438d490ca0cd2cc1deb6b7127))
+
+
+### BREAKING CHANGES
+
+* move to dotnet 8.0.2
+
 # [3.0.0](https://github.com/informatievlaanderen/correlationid-middleware/compare/v2.3.7...v3.0.0) (2022-03-23)
 
 
