@@ -15,8 +15,8 @@ licenseUrl https://opensource.org/licenses/MIT
 description Middleware component which adds a correlation id as a claim for the user on the request context.
 
 dependencies
-  framework: net6.0
+  framework: net8.0
 
 files
-  bin\Release\net6.0\Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Middleware.AddCorrelationId.dll => lib\net6.0
-  bin\Release\net6.0\Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Middleware.AddCorrelationId.pdb => lib\net6.0
+  Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Middleware.AddCorrelationId.dll => lib\net8.0
+  Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Middleware.AddCorrelationId.pdb => lib\net8.0
