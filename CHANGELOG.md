@@ -1,3 +1,15 @@
+# [5.0.0](https://github.com/informatievlaanderen/correlationid-middleware/compare/v4.0.0...v5.0.0) (2025-04-04)
+
+
+### Code Refactoring
+
+* use renovate and nuget + update pipeline ([721fe29](https://github.com/informatievlaanderen/correlationid-middleware/commit/721fe29050c07e56f23d5e7a37fd03553647b2c9))
+
+
+### BREAKING CHANGES
+
+* update to dotnet 9
+
 # [4.0.0](https://github.com/informatievlaanderen/correlationid-middleware/compare/v3.0.0...v4.0.0) (2024-03-07)
 
 
