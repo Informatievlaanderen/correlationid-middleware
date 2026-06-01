@@ -1,3 +1,10 @@
+# [5.1.0](https://github.com/informatievlaanderen/correlationid-middleware/compare/v5.0.0...v5.1.0) (2026-06-01)
+
+
+### Features
+
+* update packages ([7f66b62](https://github.com/informatievlaanderen/correlationid-middleware/commit/7f66b625432dddc60857df75e4f3fe4334357258))
+
 # [5.0.0](https://github.com/informatievlaanderen/correlationid-middleware/compare/v4.0.0...v5.0.0) (2025-04-04)
 
 
